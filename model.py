@@ -31,7 +31,7 @@ class ForestModel(mesa.Model):
     """
     
     description = (
-        "Modelo de simulação dinamica florestal. Versão 1.0.0" 
+        "Modelo de simulação dinamica florestal. Versão 1.0.0. (Desenvolvido por Pedro Higuchi. Contato: higuchip@gmail.com)" 
     )
 
     def __init__(
