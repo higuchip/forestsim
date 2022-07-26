@@ -31,7 +31,7 @@ class ForestModel(mesa.Model):
     """
     
     description = (
-        "Modelo de simulação dinamica florestal. Versão 1.0" 
+        "Modelo de simulação dinamica florestal. Versão 1.0.0" 
     )
 
     def __init__(
