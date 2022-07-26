@@ -84,11 +84,15 @@ class ForestModel(mesa.Model):
 
         self.running = True
         self.datacollector.collect(self)
+        
+
 
     def step(self):
         self.schedule.step()
         # collect data
         self.datacollector.collect(self)
+
+
         
 
     def run_model(self, step_count=200):

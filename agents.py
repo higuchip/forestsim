@@ -27,8 +27,19 @@ class ForestPatch(mesa.Agent):
         self.cyclone = True # Disturbio ciclico
         self.cyclone_countdown = 0
 
+        self.count_to_stop = 0
+
+
+
+
 
     def step(self):
+
+        # Numero máximo de passos para parar 
+        
+        self.count_to_stop+=1
+        if self.count_to_stop == 400:
+            self.model.running = False
         
         if not self.fully_grown:
             if self.countdown <= 0:
