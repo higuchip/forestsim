@@ -36,7 +36,7 @@ chart_element = mesa.visualization.ChartModule(
 model_params = {
      "title": mesa.visualization.StaticText("Parametros:"),
      "forest_regrowth_time": mesa.visualization.Slider("Tempo fechamento da clareira (anos)", 20, 1, 50),
-     "gap_chance": mesa.visualization.Slider("Probabilidade de formação de clareira", 1, 1, 10),
+     "gap_chance": mesa.visualization.Slider("Probabilidade de formação de clareira", 5, 1, 10),
      "cyclone_frequency": mesa.visualization.Slider("Frequencia de impacto cíclico", 30, 1, 100),
    
 }

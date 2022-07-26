@@ -39,7 +39,7 @@ class ForestModel(mesa.Model):
         width=10,
         height=10,
         forest_regrowth_time=20,
-        gap_chance=1,
+        gap_chance=5,
         cyclone_frequency = 30
             ):
         """
